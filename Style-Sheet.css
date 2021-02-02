@@ -1,0 +1,485 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Home Page - Nav Bar*/
+.flex-navigation1 {
+	background-color: ghostwhite;
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0px;
+	padding: 0px;
+}
+.flex-navigation1 > div {
+	background-color: transparent;
+	padding: 15px 15px 10px;
+	margin: auto;
+	text-align: left;
+	width: fit-content;
+}
+.flex-navigation1 > div > a {
+	color: black; 
+	background-color: transparent;
+	font: 17px "Open Sans", sans-serif; 
+	text-decoration: none;
+}
+.flex-navigation1 > div > p {
+	background-color: transparent; 
+	color: black; 
+	font-family: Merriweather, serif;
+	font-size: 20px;
+	font-style: bold;
+	line-height: 1.0;
+	text-decoration: none;
+}
+
+/* Home Page Body */
+@media screen and (max-width: 1000px) {
+	.background-img {
+		background-repeat:no-repeat;
+		background-size: 1000px 450px; 
+		height: auto;
+		margin: 0px;
+		padding: 0px;
+		width: 1000px;
+	}
+	.flex-container1 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin: 0px;
+		padding-top: 115px;
+	}
+	.flex-item1 {
+		background-color: transparent;
+		color: white;
+		font-family: "Open Sans", sans-serif;
+		font-size: 40px;
+		margin-left: 7%;
+		width: auto;
+	}
+	.flex-item1 > div {
+		background-color: transparent;
+		color: white;
+		font-size: 25px;
+		width: auto;
+		margin: 0px;
+	}
+	.flex-container2 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin: 10px;
+		padding-top: 0px;
+	}
+	.flex-item2 {
+		background-color: transparent;
+		color: white;
+		font-family: Merriweather, serif;
+		font-size: 25px;
+		margin-left: 10%;
+		width: auto;
+	}
+	.flex-container3 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 3%;
+		padding-top: 0px;
+	}
+	.flex-item3 {
+		background-color: transparent;
+		color: white;
+		font-family: Merriweather, serif;
+		font-size: 12px;
+		line-height: 1.6;
+		margin-left: 7%;
+		width: 35%;
+	}
+	.button1 {
+		border: 1px solid ghostwhite;
+		color: ghostwhite;
+		margin-left: 16%;
+	}
+	.button > a:link, a:visited, a:active {
+		color: ghostwhite; 
+	}
+	  .flex-container4 {
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+		margin: 3% 0% 3%;
+		padding-top: 10px;
+		width: auto;
+		height: auto;
+	}
+	.flex-item4 {
+		background-color: transparent;
+		border-color: transparent transparent black transparent;
+		border-width: 2px;
+		border-style: solid;
+		color: black;
+		font-family: "Open Sans", sans-serif;
+		font-size: 30px;
+		padding-bottom: 5px;
+		text-align: center;
+		width: 300px;
+	}
+	.flex-container7 {
+		background-color: transparent;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 3% 0% 3%;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.flex-item5 {	
+		background-color: transparent;
+		color: black;
+		font-family: Merriweather, serif;
+		font-size: 18px;
+		line-height: 1.5;
+		margin: 4% 3% 4%;
+		width: 60%;
+		text-align: left;	
+	}
+}
+@media screen and (min-width: 1001px) {
+	.background-img {
+		background-repeat:no-repeat;
+		background-size: 1300px 600px; 
+		height:600px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.flex-container1 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin: 10px;
+		padding-top: 140px;
+	}
+	.flex-item1 {
+		background-color: transparent;
+		color: white;
+		font-family: "Open Sans", sans-serif;
+		font-size: 50px;
+		margin-left: 6%;
+		width: auto;
+	}
+	.flex-item1 > div {
+		background-color: transparent;
+		color: white;
+		font-size: 30px;
+		height: auto;
+		width: auto;
+		margin: 0px;
+	}
+	.flex-container2 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin: 10px;
+		padding-top: 0px;
+	}
+	.flex-item2 {
+		background-color: transparent;
+		color: white;
+		font-family: Merriweather, serif;
+		font-size: 30px;
+		margin-left: 10%;
+		width: auto;
+	}
+	.flex-container3 {
+		background-color: transparent;
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 3%;
+		padding-top: 0px;
+	}
+	.flex-item3 {
+		background-color: transparent;
+		color: white;
+		font-family: Merriweather, serif;
+		font-size: 15px;
+		line-height: 1.6;
+		margin-left: 7%;
+		width: 35%;
+	}
+	.button1 {
+		border: 1px solid ghostwhite;
+		color: ghostwhite;
+		margin-left: 19%;
+	}
+	.button > a:link, a:visited, a:active {
+		color: ghostwhite; 
+	}
+	.flex-container4 {
+		background-color: transparent;
+		display: flex;
+		justify-content: center;
+		margin: 3%;
+		padding-top: 10px;
+		width: auto;
+		height: auto;
+	}
+	.flex-item4 {
+		background-color: transparent;
+		border-color: transparent transparent black transparent;
+		border-width: 2px;
+		border-style: solid;
+		color: black;
+		font-family: "Open Sans", sans-serif;
+		font-size: 30px;
+		padding-bottom: 5px;
+		text-align: center;
+		width: 300px;
+	}
+	.flex-container7 {
+		background-color: transparent;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: left;
+		margin: 3% 0%;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.flex-item5 {	
+		background-color: transparent;
+		color: black;
+		font-family: Merriweather, serif;
+		font-size: 18px;
+		line-height: 1.5;
+		margin: 3% 4%;
+		padding-left: 2%;
+		width: 40%;
+		text-align: left;	
+	}
+}
+.button1 {
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 10px;
+	display: inline-block;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	margin-top: 2%;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.button1 > a:link, a:visited, a:active {
+	background-color: transparent;
+	color: white; 
+	display: inline-block;
+	text-decoration: none;
+}
+.flex-container5 {
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	margin: 3% 3% 1%;
+	padding-top: 10px;
+	width: auto;
+}
+.port-img-item {
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 300px;
+}	  
+.port-image {
+	height: 300px;
+	width: 300px;
+	opacity: 1.0;
+	transition: .5s ease;
+}
+.port-img-item:hover .overlay1 {
+	opacity: .8;
+}
+.port-img-item:hover .port-image {
+	opacity: .5;
+}
+.overlay1 {
+	background-color: rgba(32, 116, 198);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 300px;
+	position: absolute;
+	transition: .5s ease;		
+	width: 300px;
+	opacity: .0;
+}
+.img-name {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3;
+	padding: 50px 15px 0px;
+	text-align: center;
+}
+.img-content {
+	font-size: 15px;
+	padding: 40px 25px 30px;
+	text-align: left;
+}
+.img-content, .img-name {
+	color: white;
+	font-family: "Merriweather", serif;
+	line-height: 1.3;
+}
+.flex-container6 {
+	background-color: transparent;
+	border: 1px solid;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: rgba(180, 180, 180, .7);			
+	display: flex;
+	height: auto;
+	justify-content: center;
+	margin: 3%;
+	padding-top: 10px;
+	padding-bottom: 45px;
+	width: auto;
+}
+.button2 {
+	background-color: transparent;
+	border: 2px solid;
+	border-radius: 10px;
+	display: flexbox;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+}
+.button2 > a:link, a:visited, a:active {
+	background-color: transparent; 
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+/* Portfolio Page*/
+
+	/* Portfolio Page - Navigation Bar */
+.flex-navigation2 {
+	background-color: ghostwhite;
+	border: 2px solid;
+	border-color: transparent transparent black;	
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0px;
+	padding: 0px;
+}
+.flex-navigation2 > div {
+	background-color: transparent;
+	padding: 15px 15px 10px;
+	margin: auto;
+	text-align: left;
+	width: fit-content;
+}
+.flex-navigation2 > div > a {
+	color: black; 
+	background-color: transparent;
+	font: 17px "Open Sans", sans-serif; 
+	text-decoration: none;
+}
+.flex-navigation2 > div > p {
+	background-color: transparent; 
+	color: black; 
+	font-family: Merriweather, serif;
+	font-size: 20px;
+	font-style: bold;
+	line-height: 1.0;
+	text-decoration: none;
+}
+
+	/* Portfolio Page - Body */
+.flex-item-pf1 {
+	color: black;
+	font-family: "Open Sans", sans-serif;
+	font-size: 40px;
+	margin: 5% 5% 3%;
+	text-align: center;
+	width: 300px;
+}
+
+
+/* Contact Page*/
+.flex-contact-container1 {
+	background-color: transparent;
+    display: flex;
+	justify-content: center;
+	margin: 10px 0px 5%;
+    padding-top: 115px;
+    width: 60%;
+}
+.flex-contact-item1 {
+	background-color: transparent;
+	border: 2.5px solid black;
+	border-radius: 20px;
+	color: black;
+	font-family: "Merriweather", serif;
+	font-size: 14px;
+	height: auto;
+	padding: 5% 0%;
+	text-align: left;
+	width: 400px;
+}
+label, input, textarea {
+	margin-left: 24%;
+	width: 200px;
+}
