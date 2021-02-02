@@ -93,6 +93,7 @@ table {
 		display: flex;
 		justify-content: flex-start;
 		margin: 0px;
+		padding-bottom: 60px;
 		padding-top: 70px;
 	}
 	.flex-item1 {
