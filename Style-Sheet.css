@@ -84,6 +84,7 @@ table {
 		background-repeat:no-repeat;
 		background-size: 1000px 450px; 
 		height: auto;
+		justify-content: center;
 		margin: 0px;
 		padding: 0px;
 		width: 1000px;
@@ -199,6 +200,7 @@ table {
 		background-repeat:no-repeat;
 		background-size: 1300px 600px; 
 		height:600px;
+		justify-content: center;
 		margin: 0px;
 		padding: 0px;
 	}
